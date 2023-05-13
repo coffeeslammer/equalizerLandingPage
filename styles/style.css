@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+p,
+h1,
+h2,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: -0.028rem;
+}
+
+.phone-image {
+    width: 13rem;
+    height: 26.875rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+article p {
+    font-size: 1.125rem;
+}
+
+.price {
+    font-size: 4.063rem;
+}
+
+.per-month {
+    font-size: 1.25rem;
+}
