@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+.temp-color-pallet {
+    color: #66E2DC;
+    color: #FCFAF9;
+    color: #FA7453;
+    color: #191826;
+    color: #FFB964;
+
+}
+
 * {
     box-sizing: border-box;
 }
@@ -11,14 +22,78 @@ ul {
     padding: 0;
 }
 
-h1 {
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+button {
+    display: block;
+    border: none;
+    border-radius: 1rem;
+    width: 100%;
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container {
+    background-image: url("/images/bg-main-mobile.png");
+    background-repeat: no-repeat;
+    background-color: #FCFAF9;
+    background-position-x: right -15rem;
+    background-position-y: top -15rem;
+}
+
+.container-main {
+    padding-top: 2.75rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    color: #191826;
+}
+
+.container-main h1 {
+    margin-top: 3rem;
     font-size: 2.5rem;
     letter-spacing: -0.028rem;
+    line-height: 3.25rem;
+}
+
+.container-main p {
+    margin-top: 1.5rem;
+    margin-bottom: 10rem;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+
+.background {
+    display: grid;
+    justify-content: center;
+    background-color: #191826;
+    position: relative;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-bottom: -2rem;
 }
 
 .phone-image {
+    position: absolute;
     width: 13rem;
     height: 26.875rem;
+    top: -20%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+}
+
+article {
+    position: relative;
+    background-color: #FA7453;
+    color: #FCFAF9;
+    /* padding-top: 2rem; */
+    padding: 3rem 1.75rem;
+    border-radius: 1rem;
+
 }
 
 h2 {
@@ -27,12 +102,69 @@ h2 {
 
 article p {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.price-per-month {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
 }
 
 .price {
+    display: flex;
+    align-content: center;
     font-size: 4.063rem;
+    font-weight: 700;
+
 }
 
 .per-month {
+    padding-left: 1rem;
     font-size: 1.25rem;
+}
+
+.btn-ios {
+    background-color: #191826;
+    color: #FCFAF9;
+    margin-bottom: 1rem;
+}
+
+.btn-android {
+    background-color: #FCFAF9;
+    color: #191826;
+}
+
+.img-btn {
+    padding-right: .5rem;
+}
+
+footer {
+    margin-top: 3rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+footer p {
+    margin-top: 2.5rem;
+
+}
+
+.email {
+    text-decoration: none;
+    color: #191826;
+    font-weight: 700;
+}
+
+footer ul {
+    display: flex;
+    justify-content: start;
+    list-style-type: none;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer li {
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
