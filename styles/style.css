@@ -41,9 +41,11 @@ button {
     background-image: url("/images/bg-main-mobile.png");
     background-repeat: no-repeat;
     background-color: #FCFAF9;
-    background-position-x: right -15rem;
-    background-position-y: top -15rem;
-    max-width: 1920px;
+    /* background-position-x: right -15rem; */
+    background-position-x: right -240px;
+    /* background-position-y: top -15rem; */
+    background-position-y: top -240px;
+    max-width: 120rem;
 }
 
 .container-main {
@@ -62,7 +64,8 @@ button {
 
 .container-main p {
     margin-top: 1.25rem;
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
+    margin-bottom: 160px;
     font-size: 1rem;
     line-height: 1.625rem;
 }
@@ -91,7 +94,7 @@ article {
     position: relative;
     background-color: #FA7453;
     color: #FCFAF9;
-    padding: 3rem 1.75rem;
+    padding: 48px 28px;
     border-radius: 1rem;
 }
 
@@ -105,8 +108,8 @@ article p {
 }
 
 .price-per-month {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 48px;
+    margin-bottom: 48px;
 
 }
 
@@ -181,12 +184,14 @@ svg:hover {
 }
 
 /* -------------------------------------------------media break--------------------------- */
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 46.25rem) {
     .container {
         background-image: url("/images/bg-main-tablet.png");
         background-repeat: no-repeat;
-        background-position-x: right -8rem;
-        background-position-y: top -15rem;
+        /* background-position-x: right -8rem; */
+        background-position-x: right -128px;
+        /* background-position-y: top -15rem; */
+        background-position-y: top -240px;
         padding-left: 2.5rem;
         padding-right: 2.5rem;
     }
@@ -204,8 +209,10 @@ svg:hover {
     .image-main {
         display: grid;
         justify-self: end;
-        margin-top: -2rem;
-        margin-right: -5rem;
+        /* margin-top: -2rem; */
+        margin-top: -32px;
+        /* margin-right: -5rem; */
+        margin-right: -80px;
     }
 
     .image-main img {
@@ -247,7 +254,7 @@ svg:hover {
     article {
         position: absolute;
         width: 25rem;
-        height: 34.125rem;
+        /* height: 34.125rem; */
         right: 3.5rem;
         top: 10rem;
     }
@@ -283,18 +290,21 @@ svg:hover {
 }
 
 /* ----------------------------------media break 2------------------------------------- */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 75rem) {
     .container {
         background-image: url("/images/bg-main-desktop.png");
         background-repeat: no-repeat;
         background-position-x: right -8rem;
         background-position-y: top -15rem;
-        padding-left: 8rem;
-        padding-right: 8rem;
+        /* padding-left: 8rem; */
+        padding-left: 128px;
+        /* padding-right: 8rem; */
+        padding-right: 128px;
     }
 
     .container-main h1 {
-        margin-top: 7.5rem;
+        /* margin-top: 7.5rem; */
+        margin-top: 168px;
         font-size: 5.5rem;
         line-height: 5.5rem;
         letter-spacing: -0.063rem;
@@ -302,7 +312,8 @@ svg:hover {
 
     .container-main p {
         margin-top: 2rem;
-        margin-bottom: 20rem;
+        /* margin-bottom: 20rem; */
+        margin-bottom: 320px;
         font-size: 1.25rem;
         line-height: 2.125rem;
     }
@@ -311,8 +322,9 @@ svg:hover {
 
         display: grid;
         justify-self: end;
-        margin-top: -2rem;
-        margin-right: -8rem;
+        margin-top: -32px;
+        /* margin-right: -8rem; */
+        margin-right: -128px;
     }
 
     .image-main img {
@@ -323,9 +335,11 @@ svg:hover {
     .phone-image {
         position: absolute;
         width: 19.5rem;
+        /* width: 312px; */
         height: 40.125rem;
-        top: -14rem;
-        left: 18rem;
+        /* height: 642px; */
+        top: -224px;
+        left: 288px;
     }
 
     .pattern-2 {
@@ -335,7 +349,7 @@ svg:hover {
     article {
         position: absolute;
         width: 27.875rem;
-        height: 39.063rem;
+        /* height: 39.063rem; */
         right: 6rem;
         top: 6rem;
     }
